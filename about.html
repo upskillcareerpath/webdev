@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #container{
+        width: 100%;
+    }
+    .banner{
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        background-color: black;
+        color: aliceblue;
+    }
+
+    .content{
+        width: 100%;
+        min-height: 100px;
+        background-color: rgb(181, 181, 226);
+        margin-top: 2px;
+        padding: 10px 3px 2px;
+    }
+
+    .footer{
+        width: 100%;
+        height: 50px;
+        background-color: #000;
+        color:aliceblue;
+        text-align: center;
+    }
+
+    .img-info{
+        width: 60%;
+    }
+
+    .txt-info{
+        width: 40%;
+        color: blueviolet;
+    }
+
+    .img{
+        width: 100%;
+    }
+
+    @media only screen and (max-width: 768px){
+        .banner{
+            display:none;
+        }
+    }
+</style>
+<body>
+    <div id="container">
+        <div class="banner">Banner</div>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, enim minus. Vero iure facilis iste explicabo similique necessitatibus omnis, unde fuga enim nobis, recusandae animi obcaecati magnam doloremque, eligendi eum!</p>
+        </div>
+        <div class="info">
+            <div class="img-info">
+                <img src="img/ucp.jpg" alt="" class="img">
+            </div>
+            <div class="txt-info"></div>
+        </div>
+        <div class="footer"></div>
+    </div>
+</body>
+</html>
